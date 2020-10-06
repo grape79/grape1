@@ -7,16 +7,16 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <li class="nav-item {{ set_active_route('root_path') }}">
           <a class="nav-link" href="{{ route('root_path')}}">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {{ set_active_route('root_path') }} ">
           <a class="nav-link" href="{{ route('about_path')}}">About</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {{ set_active_route('root_path') }}">
           <a class="nav-link" href="#">Artisans</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown {{ set_active_route('root_path') }}">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Planet
           </a>
@@ -29,7 +29,7 @@
             <a class="dropdown-item" href="#">Larachat</a>
           </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {{ set_active_route('root_path') }}">
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
