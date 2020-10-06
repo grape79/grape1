@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default', ['title' => 'About'])
 
 @section('content')
 
@@ -6,7 +6,7 @@
 
 <h2>Simple projet avec laravel</h2>
 <p>Ce site est un exemple réalisé avec le framework Laravel</p>
-<p><a href="http://laravel.com" target="_blank">laravel.com</a></p>
+<p><a href="https://github.com/grape79/grape1" target="_blank">Suivi moi sur github</a></p>
 <p>Laravel is accessible, powerfull, and provides tools required for large, robust applications.</p>
 
 <div class="row">
